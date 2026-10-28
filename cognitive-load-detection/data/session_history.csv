@@ -1,0 +1,3 @@
+session_id,timestamp,typing_speed_wpm,typing_time,average_key_hold_time,average_inter_key_interval,pause_count,backspace_count,correction_rate,typing_rhythm,predicted_cognitive_load,confidence_pct
+SES-619776,2026-10-14 09:33:39,65.0,25.0,95.0,140.0,0.0,1.0,0.008,45.0,LOW,99.9
+SES-89039,2026-10-14 09:41:29,27.15,53.93,80.75,330.48,0.0,20.0,0.122,224.81,MEDIUM,98.1

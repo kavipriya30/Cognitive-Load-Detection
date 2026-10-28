@@ -1,0 +1,322 @@
+{
+    "models": {
+        "Logistic Regression": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "classification_report": {
+                "LOW": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 80.0
+                },
+                "MEDIUM": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 80.0
+                },
+                "HIGH": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 80.0
+                },
+                "accuracy": 1.0,
+                "macro avg": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 240.0
+                },
+                "weighted avg": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 240.0
+                }
+            },
+            "confusion_matrix": [
+                [
+                    80,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    80,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    80
+                ]
+            ],
+            "cv_f1_mean": 1.0,
+            "cv_f1_std": 0.0,
+            "feature_importance": {
+                "average_key_hold_time": 0.7856,
+                "typing_rhythm": 0.7509,
+                "typing_time": 0.7177,
+                "average_inter_key_interval": 0.6775,
+                "median_inter_key_interval": 0.6773,
+                "typing_speed_wpm": 0.5875,
+                "characters_per_minute": 0.5874,
+                "keystrokes_per_second": 0.5874,
+                "backspace_count": 0.5714,
+                "maximum_pause_duration": 0.537,
+                "pause_count": 0.5239,
+                "average_pause_duration": 0.5102,
+                "error_rate": 0.4783,
+                "correction_rate": 0.4734,
+                "total_keystrokes": 0.3486
+            }
+        },
+        "Decision Tree": {
+            "accuracy": 0.9833,
+            "precision": 0.9841,
+            "recall": 0.9833,
+            "f1_score": 0.9833,
+            "classification_report": {
+                "LOW": {
+                    "precision": 0.9523809523809523,
+                    "recall": 1.0,
+                    "f1-score": 0.975609756097561,
+                    "support": 80.0
+                },
+                "MEDIUM": {
+                    "precision": 1.0,
+                    "recall": 0.95,
+                    "f1-score": 0.9743589743589743,
+                    "support": 80.0
+                },
+                "HIGH": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 80.0
+                },
+                "accuracy": 0.9833333333333333,
+                "macro avg": {
+                    "precision": 0.9841269841269842,
+                    "recall": 0.9833333333333334,
+                    "f1-score": 0.9833229101521784,
+                    "support": 240.0
+                },
+                "weighted avg": {
+                    "precision": 0.9841269841269842,
+                    "recall": 0.9833333333333333,
+                    "f1-score": 0.9833229101521784,
+                    "support": 240.0
+                }
+            },
+            "confusion_matrix": [
+                [
+                    80,
+                    0,
+                    0
+                ],
+                [
+                    4,
+                    76,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    80
+                ]
+            ],
+            "cv_f1_mean": 0.9948,
+            "cv_f1_std": 0.0,
+            "feature_importance": {
+                "average_inter_key_interval": 0.9691,
+                "typing_rhythm": 0.0154,
+                "keystrokes_per_second": 0.0093,
+                "average_key_hold_time": 0.0062,
+                "typing_speed_wpm": 0.0,
+                "characters_per_minute": 0.0,
+                "median_inter_key_interval": 0.0,
+                "typing_time": 0.0,
+                "pause_count": 0.0,
+                "average_pause_duration": 0.0,
+                "maximum_pause_duration": 0.0,
+                "backspace_count": 0.0,
+                "correction_rate": 0.0,
+                "error_rate": 0.0,
+                "total_keystrokes": 0.0
+            }
+        },
+        "Random Forest": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "classification_report": {
+                "LOW": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 80.0
+                },
+                "MEDIUM": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 80.0
+                },
+                "HIGH": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 80.0
+                },
+                "accuracy": 1.0,
+                "macro avg": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 240.0
+                },
+                "weighted avg": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 240.0
+                }
+            },
+            "confusion_matrix": [
+                [
+                    80,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    80,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    80
+                ]
+            ],
+            "cv_f1_mean": 1.0,
+            "cv_f1_std": 0.0,
+            "feature_importance": {
+                "median_inter_key_interval": 0.2013,
+                "average_inter_key_interval": 0.1989,
+                "typing_rhythm": 0.1834,
+                "average_key_hold_time": 0.0867,
+                "characters_per_minute": 0.0636,
+                "typing_speed_wpm": 0.0561,
+                "maximum_pause_duration": 0.0547,
+                "backspace_count": 0.0519,
+                "keystrokes_per_second": 0.047,
+                "correction_rate": 0.0177,
+                "typing_time": 0.0157,
+                "average_pause_duration": 0.0106,
+                "error_rate": 0.01,
+                "pause_count": 0.0022,
+                "total_keystrokes": 0.0002
+            }
+        },
+        "Gradient Boosting": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "classification_report": {
+                "LOW": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 80.0
+                },
+                "MEDIUM": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 80.0
+                },
+                "HIGH": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 80.0
+                },
+                "accuracy": 1.0,
+                "macro avg": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 240.0
+                },
+                "weighted avg": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 240.0
+                }
+            },
+            "confusion_matrix": [
+                [
+                    80,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    80,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    80
+                ]
+            ],
+            "cv_f1_mean": 0.9958,
+            "cv_f1_std": 0.0039,
+            "feature_importance": {
+                "average_inter_key_interval": 0.9662,
+                "average_key_hold_time": 0.0126,
+                "typing_rhythm": 0.0123,
+                "keystrokes_per_second": 0.0023,
+                "characters_per_minute": 0.0019,
+                "typing_speed_wpm": 0.0015,
+                "pause_count": 0.0012,
+                "typing_time": 0.0011,
+                "average_pause_duration": 0.0005,
+                "maximum_pause_duration": 0.0004,
+                "median_inter_key_interval": 0.0,
+                "backspace_count": 0.0,
+                "correction_rate": 0.0,
+                "error_rate": -0.0,
+                "total_keystrokes": 0.0
+            }
+        }
+    },
+    "winning_model": "Logistic Regression",
+    "feature_names": [
+        "typing_speed_wpm",
+        "characters_per_minute",
+        "average_key_hold_time",
+        "average_inter_key_interval",
+        "median_inter_key_interval",
+        "typing_time",
+        "pause_count",
+        "average_pause_duration",
+        "maximum_pause_duration",
+        "backspace_count",
+        "correction_rate",
+        "error_rate",
+        "typing_rhythm",
+        "keystrokes_per_second",
+        "total_keystrokes"
+    ]
+}
